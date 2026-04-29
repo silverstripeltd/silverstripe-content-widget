@@ -24,10 +24,7 @@ class ContentWidget extends Widget
 
     private static string $table_name = 'ContentWidget';
 
-    /**
-     * @return FieldList
-     */
-    public function getCMSFields()
+    public function getCMSFields(): FieldList
     {
         $fields = parent::getCMSFields();
 
