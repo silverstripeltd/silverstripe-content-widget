@@ -12,17 +12,17 @@ use SilverStripe\Widgets\Model\Widget;
  */
 class ContentWidget extends Widget
 {
-    private static $db = [
+    private static array $db = [
         "HTML" => "HTMLText",
     ];
 
-    private static $title = "Content";
+    private static string $title = "Content";
 
-    private static $cmsTitle = "Content";
+    private static string $cmsTitle = "Content";
 
-    private static $description = "Custom rich content widget.";
+    private static string $description = "Custom rich content widget.";
 
-    private static $table_name = 'ContentWidget';
+    private static string $table_name = 'ContentWidget';
 
     /**
      * @return FieldList
